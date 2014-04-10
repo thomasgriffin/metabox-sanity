@@ -1,0 +1,24 @@
+{
+    "name": "metabox-sanity",
+    "description": "Metabox Sanity provides WordPress theme and plugin authors a way to benevolently dictate how other plugins and themes can interact with their custom post type interfaces in the form of metaboxes.",
+    "homepage": "https://github.com/thomasgriffin/metabox-sanity",
+    "keywords": ["wordpress","plugins", "theme", "metabox", "metaboxes"],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Thomas Griffin",
+            "homepage": "http://thomasgriffinmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/thomasgriffin/metabox-sanity/issues",
+        "source": "https://github.com/thomasgriffin/metabox-sanity"
+    },
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "files": ["class-tgm-metabox-sanity.php"]
+    }
+}
