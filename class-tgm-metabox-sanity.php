@@ -86,7 +86,7 @@ if ( ! class_exists( 'TGM_Metabox_Sanity' ) ) {
 
             // Loop through each post type and start whitelisting metaboxes!
             foreach ( $this->data as $post_type => $data ) {
-                // If no contexts are priorities have been specified, do nothing.
+                // If no contexts or priorities have been specified, do nothing.
                 if ( empty( $data['contexts'] ) || empty( $data['priorities'] ) ) {
                     continue;
                 }
@@ -111,7 +111,7 @@ if ( ! class_exists( 'TGM_Metabox_Sanity' ) ) {
                                     }
                                 }
 
-                                // The metabox is not only on this screen. Prevent it from being registered.
+                                // The metabox is not allowed on this screen. Prevent it from being registered.
                                 unset( $wp_meta_boxes[$post_type][$context][$priority][$id] );
                             }
                         }
