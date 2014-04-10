@@ -2,9 +2,9 @@ Metabox Sanity
 ==============
 
 **Contributors:** Thomas Griffin (@jthomasgriffin / thomasgriffinmedia.com)  
-**Version:** 1.0.0 
-**Requires at least:** 3.0.0 
-**Tested up to:** 3.9-beta1 
+**Version:** 1.0.0  
+**Requires at least:** 3.0.0  
+**Tested up to:** 3.9-beta1  
 
 ## Description ##
 
