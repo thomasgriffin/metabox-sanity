@@ -17,7 +17,7 @@ With Metabox Sanity, the control is put directly into your hands. You now have t
 ## Installation ##
 
 1. Drop the class file somewhere in your theme hierarchy (the example below uses the root of the theme).
-2. Add the following code to your theme's `functions.php` file, modifying the config settings as needed. *I encourage you to use your own custom namespace for the function.*
+2. Add the following code to your theme's `functions.php` file, modifying the config settings as needed. *I encourage you to use your own custom namespace for the function.* The code below should serve as an example of how it can be used.
 
 ``` php
 add_action( 'add_meta_boxes', 'tgm_metabox_sanity', 999 );
